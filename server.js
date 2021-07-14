@@ -10,7 +10,7 @@ app.get('/', (req, res) =>{
     res.send('<a href="./marvel">Marvel Characters</a>')
 })
 
-app.get('/home',function(req, res){
+app.get('/',function(req, res){
     res.send('<h1>home</h1>')
 })
 app.get('/home',function (req, res) {
