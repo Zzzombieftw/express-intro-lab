@@ -3,9 +3,11 @@ export {
 }
 
 const marvel = [
-    {text: 'DeadPool is strong', done: true, _id: 125223},
-    {text: 'Spider Man is strong', done: false, _id: 127904},
-    {text: 'Hulk is strong', done: false, _id: 139608},
+    {text: 'Is Deadpool strong?', done: true, _id: 125223},
+    {text: 'Is Spider Man strong?', done: false, _id: 127904},
+    {text: 'Is Hulk strong?', done: true, _id: 139608},
+    {text: 'Is Thanos?', done: false, _id: 139608},
+
   ]
   
   const find = (conditions, callback) => {

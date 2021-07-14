@@ -1,13 +1,13 @@
 import express from 'express'
 import * as marvelDb from "./data/marvel-db.js"
-import path from 'path'
+
 
 
 const app = express()
 app.set('view engine', 'ejs')
 
 app.get('/', (req, res) =>{
-    res.send('<link href="/marvel">marvel Ch</link>')
+    res.send('<a href="./marvel">Marvel Characters</a>')
 })
 
 app.get('/home',function(req, res){
